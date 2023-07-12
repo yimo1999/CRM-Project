@@ -8,7 +8,6 @@ public class DateUtils {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd HH:MM:SS");
         String nowStr = sdf.format(date);
         return nowStr;
-
     }
 
 }
